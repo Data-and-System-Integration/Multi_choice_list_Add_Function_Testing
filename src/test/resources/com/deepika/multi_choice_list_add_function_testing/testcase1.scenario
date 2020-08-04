@@ -1,0 +1,13 @@
+<scenario>
+  <name>testcase1</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures/>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>com.deepika.multi_choice_list_add_function_testing</packageName>
+  <imports>
+    <imports/>
+  </imports>
+  <ksessions/>
+</scenario>
