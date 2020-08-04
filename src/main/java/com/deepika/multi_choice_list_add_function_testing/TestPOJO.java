@@ -6,12 +6,51 @@ package com.deepika.multi_choice_list_add_function_testing;
 
 public class TestPOJO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TestPOJO() {
-    }
+private java.lang.String strVal;
+private java.util.List<Integer> list1 = new java.util.ArrayList<Integer>();
+private java.util.List<Integer> list2 = new java.util.ArrayList<Integer>();
+private java.util.List<Integer> list3 = new java.util.ArrayList<Integer>();
+
+	public TestPOJO() {
+	}
+
+	public java.lang.String getStrVal() {
+		return this.strVal;
+	}
+
+	public void setStrVal(java.lang.String strVal) {
+		this.strVal = strVal;
+	}
+
+	public TestPOJO(java.lang.String strVal) {
+		this.strVal = strVal;
+	}
 
 
+public java.util.List<Integer> getList1() {
+	return list1;
+}
 
+public void setList1(Integer list1) {
+	this.list1.add(list1);
+}
+
+public java.util.List<Integer> getList2() {
+	return list2;
+}
+
+public void setList2(Integer list2) {
+	this.list2.add(list2);
+}
+
+public java.util.List<Integer> getList3() {
+	return list3;
+}
+
+public void setList3(Integer list3) {
+	this.list3.add(list3);
+}
 
 }
