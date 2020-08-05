@@ -16,7 +16,7 @@
             </field-data>
             <field-data>
               <name>list1</name>
-              <value>2</value>
+              <value>3</value>
               <nature>4</nature>
             </field-data>
           </collectionFieldList>
@@ -39,7 +39,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-04 15:55:16.205 UTC</lastRunResult>
+  <lastRunResult>2020-08-05 06:50:29.91 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.multi_choice_list_add_function_testing</packageName>
