@@ -11,7 +11,7 @@
           <collectionFieldList>
             <field-data>
               <name>list1</name>
-              <value>[1]</value>
+              <value>1</value>
               <nature>4</nature>
             </field-data>
           </collectionFieldList>
@@ -25,15 +25,16 @@
       <fieldValues>
         <expect-field>
           <fieldName>list2</fieldName>
-          <expected>[6]</expected>
+          <expected>6</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>tst</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2020-08-05 08:34:11.424 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.multi_choice_list_add_function_testing</packageName>
