@@ -13,9 +13,6 @@ private java.util.List<Integer> list1 = new java.util.ArrayList<Integer>();
 private java.util.List<Integer> list2 = new java.util.ArrayList<Integer>();
 private java.util.List<Integer> list3 = new java.util.ArrayList<Integer>();
 
-	public TestPOJO() {
-	}
-
 	public java.lang.String getStrVal() {
 		return this.strVal;
 	}
@@ -24,33 +21,29 @@ private java.util.List<Integer> list3 = new java.util.ArrayList<Integer>();
 		this.strVal = strVal;
 	}
 
-	public TestPOJO(java.lang.String strVal) {
-		this.strVal = strVal;
-	}
-
 
 public java.util.List<Integer> getList1() {
 	return list1;
 }
 
-public void setList1(Integer list1) {
-	this.list1.add(list1);
+public void setList1(Integer val) {
+	this.list1.add(val);
 }
 
 public java.util.List<Integer> getList2() {
 	return list2;
 }
 
-public void setList2(Integer list2) {
-	this.list2.add(list2);
+public void setList2(Integer val) {
+	this.list2.add(val);
 }
 
 public java.util.List<Integer> getList3() {
 	return list3;
 }
 
-public void setList3(Integer list3) {
-	this.list3.add(list3);
+public void setList3(Integer val) {
+	this.list3.add(val);
 }
 
 }
