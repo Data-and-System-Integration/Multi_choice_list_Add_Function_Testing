@@ -13,9 +13,9 @@ public class TestPOJO implements java.io.Serializable {
 	private java.util.List<Integer> list2 = new java.util.ArrayList<Integer>();
 	private java.util.List<Integer> list3 = new java.util.ArrayList<Integer>();
 
-	private java.util.List<java.lang.String> l1;
+	private java.util.List<java.lang.String> l1 = new java.util.ArrayList<java.lang.String>();
 
-	private java.util.List<java.lang.String> l2;
+	private java.util.List<java.lang.String> l2 = new java.util.ArrayList<java.lang.String>();
 
 	public java.lang.String getStrVal() {
 		return this.strVal;
