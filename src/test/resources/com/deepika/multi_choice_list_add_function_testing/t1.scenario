@@ -11,7 +11,7 @@
           <collectionFieldList>
             <field-data>
               <name>list1</name>
-              <value>1</value>
+              <value>&quot;1&quot;</value>
               <nature>4</nature>
             </field-data>
           </collectionFieldList>
@@ -25,7 +25,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>list2</fieldName>
-          <expected>6</expected>
+          <expected>&quot;6&quot;</expected>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
